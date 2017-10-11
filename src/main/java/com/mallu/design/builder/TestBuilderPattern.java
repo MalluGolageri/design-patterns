@@ -13,6 +13,7 @@ public class TestBuilderPattern {
                 .build();
 
         System.out.println(comp.getHDD()+" "+comp.getRAM()+" "+comp.isBluetoothEnabled()+" "+comp.isGraphicsCardEnabled());
+
     }
 
 }
