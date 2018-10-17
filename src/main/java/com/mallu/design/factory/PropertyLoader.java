@@ -13,7 +13,7 @@ public class PropertyLoader {
     private static Properties properties=new Properties();
 
     public void loadProperties(){
-        File file=new File("/Users/golagem/github/design-patterns/src/main/resources/test.properties");
+        File file=new File("/Users/mallu/github/design-patterns/src/main/resources/test.properties");
         try{
             properties.load(new FileReader(file));
         }catch (Exception e){
